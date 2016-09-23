@@ -13,7 +13,7 @@ import java.util.Arrays;
 
 @SpringBootApplication
 @EnableAutoConfiguration(exclude = {DataSourceAutoConfiguration.class, HibernateJpaAutoConfiguration.class})
-@ImportResource("/spring-hibernate.xml")
+@ImportResource("/spring.xml")
 public class Application {
 
     public static void main(String[] args) {

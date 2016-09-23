@@ -1,6 +1,5 @@
 package hello;
 
-import hello.dao.PersonDAO;
 import hello.entity.Person;
 import hello.service.PersonService;
 import org.springframework.beans.factory.annotation.Autowired;
